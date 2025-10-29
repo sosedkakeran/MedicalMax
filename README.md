@@ -1,218 +1,262 @@
-# MedicalMax
 
-**A Privacy-First Blockchain Application**
+```markdown
+# Sanctuary
 
-MedicalMax is a cutting-edge decentralized application that prioritizes user privacy and data security. Built on Ethereum and powered by Fully Homomorphic Encryption (FHE), it provides a secure platform for managing sensitive data while maintaining complete user control and privacy.
+> **Privacy-preserving medical data platform powered by Zama FHEVM**
 
-## 🔒 What Makes MedicalMax Unique?
-
-### **End-to-End Privacy**
-Unlike traditional applications that store data in plaintext, MedicalMax encrypts all user data using Fully Homomorphic Encryption, ensuring that even the platform operators cannot access your private information.
-
-### **Decentralized Architecture**
-Built on blockchain technology, MedicalMax operates without central points of failure, giving users complete control over their data and eliminating single points of control.
-
-### **Zero-Knowledge Operations**
-All operations are performed on encrypted data without ever decrypting it, ensuring maximum privacy while maintaining full functionality.
-
-### **User Sovereignty**
-You own your data, you control your data, and you decide who can access it. No backdoors, no master keys, no compromises.
-
-## 🚀 Core Features
-
-- **🔒 End-to-End Encryption**: Your data is encrypted before leaving your device
-- **🌐 Blockchain Storage**: Decentralized storage ensures data integrity
-- **🔑 Wallet Integration**: Use your existing Web3 wallet for authentication
-- **⚡ Real-Time Operations**: Instant access to your encrypted data
-- **🛡️ Zero-Knowledge Architecture**: Even we can't see your encrypted information
-- **📱 Modern Interface**: Clean, intuitive design built with React
-- **🔧 Developer Friendly**: Open source with comprehensive documentation
-
-## 🏗️ Technical Architecture
-
-### **Smart Contract Layer**
-- **MedicalMax.sol**: Main application contract
-- **EncryptionManager.sol**: Handles cryptographic operations
-- **StorageManager.sol**: Manages encrypted data storage
-- **AccessControl.sol**: Implements permission systems
-
-### **Frontend Application**
-- **React + TypeScript**: Modern, type-safe development
-- **Web3 Integration**: Seamless wallet connectivity
-- **Responsive Design**: Works on all devices
-- **Real-time Updates**: Live data synchronization
-
-### **Cryptographic Stack**
-- **FHEVM**: Zama's Fully Homomorphic Encryption
-- **ChaCha20**: Fast, secure symmetric encryption
-- **EIP-712**: Secure message signing
-- **Keccak256**: Cryptographic hashing
-
-## 🎯 Use Cases
-
-### **Personal Data Management**
-- Secure document storage
-- Private note-taking
-- Personal information vault
-- Encrypted file sharing
-
-### **Business Applications**
-- Confidential data storage
-- Secure communication
-- Compliance management
-- Audit trail maintenance
-
-### **Developer Tools**
-- Encrypted configuration storage
-- Secure API key management
-- Private code repositories
-- Development environment secrets
-
-## 🛠️ Getting Started
-
-### **Prerequisites**
-- MetaMask or compatible Web3 wallet
-- Ethereum Sepolia testnet ETH
-- Modern web browser with Web3 support
-
-### **Installation**
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sosedkakeran/MedicalMax.git
-   cd medicalmax
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment**
-   ```bash
-   cp .env.example .env.local
-   # Add your configuration settings
-   ```
-
-4. **Deploy contracts**
-   ```bash
-   npm run deploy:sepolia
-   ```
-
-5. **Start the application**
-   ```bash
-   cd app
-   npm run dev
-   ```
-
-### **How to Use**
-
-1. **Connect your wallet** to the platform
-2. **Set up your profile** and security settings
-3. **Start storing data** securely on the blockchain
-4. **Manage permissions** for data access
-5. **Share securely** with trusted parties
-6. **Monitor activity** through the dashboard
-
-## 🔒 Security & Privacy
-
-### **Encryption at Rest**
-- All data encrypted before storage
-- Multiple encryption layers
-- Zero-knowledge architecture
-- Tamper-proof storage
-
-### **Encryption in Transit**
-- HTTPS for all communications
-- Wallet signatures prevent replay attacks
-- Time-limited access tokens
-- Secure key exchange protocols
-
-### **Access Control**
-- Only you can decrypt your data
-- No backdoors or master keys
-- Complete user sovereignty
-- Transparent permission system
-
-## 🌟 Roadmap
-
-### **Phase 1: Core Platform** ✅
-- Basic encryption and storage
-- Wallet integration
-- Web interface
-- FHE implementation
-
-### **Phase 2: Enhanced Security** 🚧
-- Multi-signature support
-- Hardware wallet integration
-- Advanced access controls
-- Security audit
-
-### **Phase 3: Advanced Features** 📋
-- File encryption support
-- Sharing capabilities
-- Mobile applications
-- API development
-
-### **Phase 4: Enterprise Solutions** 🔮
-- Team collaboration features
-- Compliance tools
-- Enterprise integrations
-- Professional support
-
-## 🤝 Contributing
-
-We welcome contributions from developers, security researchers, and privacy advocates!
-
-### **How to Contribute**
-- Fork the repository
-- Create a feature branch
-- Implement your changes
-- Submit a pull request
-
-### **Areas We Need Help**
-- 🔐 Security audits and reviews
-- 🎨 UI/UX improvements
-- 📚 Documentation and tutorials
-- 🧪 Testing and quality assurance
-- 🌍 Internationalization
-
-## 📊 Project Statistics
-
-- **Smart Contract Size**: ~3.5 KB (optimized)
-- **Frontend Bundle**: ~350 KB (gzipped)
-- **Gas Cost per Operation**: ~120,000 gas
-- **Test Coverage**: 90%+ (target: 95%)
-- **Languages**: TypeScript, Solidity, CSS
-
-## 📝 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-Special thanks to:
-- **Zama** for pioneering FHEVM technology
-- **Ethereum Foundation** for decentralized infrastructure
-- **Privacy advocates** for pushing boundaries
-- **The Web3 community** for innovation
-
-## 📞 Support & Community
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/sosedkakeran/MedicalMax/issues)
-- **Documentation**: [Full documentation](https://github.com/sosedkakeran/MedicalMax/wiki)
-- **Discord**: [Join our community](https://github.com/sosedkakeran/MedicalMax/discussions)
-- **Twitter**: [Follow for updates](https://github.com/sosedkakeran/MedicalMax)
-
-## 🔗 Links
-
-- **Repository**: [https://github.com/sosedkakeran/MedicalMax](https://github.com/sosedkakeran/MedicalMax)
-- **Live Demo**: [Try it now](https://github.com/sosedkakeran/MedicalMax)
-- **Documentation**: [User Guide](https://github.com/sosedkakeran/MedicalMax/wiki)
-- **API Docs**: [Developer Resources](https://github.com/sosedkakeran/MedicalMax/api)
+Sanctuary enables confidential medical data management on blockchain using Zama's Fully Homomorphic Encryption Virtual Machine. Your health information remains encrypted throughout all processing—complete privacy protection.
 
 ---
 
-**Built with ❤️ for Privacy**
+## The Medical Privacy Challenge
 
-*MedicalMax - Where your data stays yours, forever.*
+Healthcare data requires the highest level of privacy protection. Traditional medical systems often expose sensitive information during processing or storage.
+
+**Sanctuary solves this** by leveraging Zama FHEVM to process medical data without ever decrypting it.
+
+---
+
+## Zama FHEVM for Healthcare
+
+### Understanding FHEVM in Medical Context
+
+**FHEVM** (Fully Homomorphic Encryption Virtual Machine) enables medical data processing while maintaining complete confidentiality. Health records, test results, and medical history can be processed on blockchain without exposure.
+
+### How Sanctuary Protects Medical Data
+
+```
+┌──────────────────┐
+│ Patient Health   │
+│ Data Entry       │
+└────────┬─────────┘
+         │
+         ▼ FHE Encryption
+┌──────────────────┐
+│  Encrypted       │
+│  Medical Data    │
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  FHEVM Smart         │
+│  Contract            │
+│  (Sanctuary)         │
+│  ┌────────────────┐  │
+│  │ Process        │  │ ← Encrypted analysis
+│  │ Encrypted      │  │
+│  │ Health Data    │  │
+│  └────────────────┘  │
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│ Zama FHE Runtime     │
+│ Medical Data         │
+│ Processing           │
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────┐
+│ Encrypted        │
+│ Results          │
+│ (Only patient    │
+│  can decrypt)    │
+└──────────────────┘
+```
+
+### Privacy Guarantees
+
+- ✅ **Medical Records Encrypted**: All health data encrypted with FHE
+- ✅ **On-Chain Confidentiality**: Secure processing on blockchain
+- ✅ **HIPAA-Compatible Approach**: Privacy-first architecture
+- ✅ **Patient Control**: Only patient can decrypt their data
+
+---
+
+## Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/sosedkakeran/Sanctuary.git
+cd Sanctuary
+
+# Install dependencies
+npm install
+
+# Setup environment
+cp .env.example .env.local
+# Configure your settings
+
+# Deploy contracts
+npm run deploy:sepolia
+
+# Start application
+npm run dev
+```
+
+**Requirements**: MetaMask, Sepolia ETH, Node.js 18+
+
+---
+
+## Medical Data Privacy Model
+
+### What Gets Encrypted
+
+- ✅ Patient health records
+- ✅ Medical test results
+- ✅ Treatment history
+- ✅ Prescription information
+- ✅ Billing data
+
+### What Remains Accessible
+
+- ✅ Transaction hashes (for audit)
+- ✅ Contract addresses
+- ✅ Access permissions (encrypted)
+- ✅ Timestamp metadata
+
+### Access Control
+
+- 🔐 Only patient can decrypt their medical data
+- 🔐 Healthcare providers access via patient authorization
+- 🔐 No platform backdoors
+- 🔐 Transparent access logs
+
+---
+
+## Technology Stack
+
+### Core Technologies
+
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| **Encryption** | Zama FHE | Fully homomorphic encryption |
+| **Blockchain** | Ethereum Sepolia | Decentralized storage |
+| **Smart Contracts** | Solidity + FHEVM | Encrypted medical data processing |
+| **Frontend** | React + TypeScript | Patient interface |
+| **Build Tool** | Hardhat | Development environment |
+
+### Zama FHEVM Integration
+
+- **Medical Data Encryption**: FHE encryption before storage
+- **Encrypted Processing**: Analyze health data without decryption
+- **Privacy-Preserving**: No exposure of sensitive information
+- **Compliance-Ready**: Architecture supports medical privacy regulations
+
+---
+
+## Use Cases
+
+### Personal Health Records
+
+- Secure medical history storage
+- Encrypted test result management
+- Private prescription tracking
+- Confidential treatment records
+
+### Healthcare Provider Integration
+
+- Secure patient data access
+- Encrypted medical analysis
+- Privacy-preserving consultations
+- Confidential billing processing
+
+### Medical Research
+
+- Privacy-preserving data aggregation
+- Confidential clinical trial participation
+- Encrypted research data sharing
+- Patient-controlled data contribution
+
+---
+
+## Development
+
+### Building
+
+```bash
+npm run build:contracts    # Build smart contracts
+npm run build:frontend     # Build frontend
+npm run build              # Build everything
+```
+
+### Testing
+
+```bash
+npm test                   # Run all tests
+npm run test:contracts     # Contract tests only
+npm run test:frontend      # Frontend tests only
+```
+
+### Deployment
+
+```bash
+npm run deploy:sepolia     # Deploy to Sepolia
+npm run deploy:local       # Deploy locally
+```
+
+---
+
+## Security & Compliance
+
+### FHE Security
+
+- **Encryption Strength**: Military-grade FHE encryption
+- **Zero-Knowledge Processing**: Data never decrypted during processing
+- **Decentralized Security**: No single point of failure
+- **Transparent Verification**: Audit-friendly architecture
+
+### Privacy Considerations
+
+- 🔒 Use Sepolia testnet for development
+- 🔒 Never commit medical data or keys
+- 🔒 Verify contract addresses before transactions
+- 🔒 Use hardware wallets for production
+- 🔒 Follow medical data privacy regulations
+
+---
+
+## Contributing
+
+Contributions welcome! Focus areas:
+
+- 🔬 FHE performance optimization for medical data
+- 🛡️ Security audits for healthcare compliance
+- 📖 Documentation for medical professionals
+- 🎨 UI/UX for patient-friendly design
+- 🌐 Internationalization for global healthcare
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## Resources
+
+- **Zama**: [zama.ai](https://www.zama.ai/)
+- **FHEVM Documentation**: [docs.zama.ai/fhevm](https://docs.zama.ai/fhevm)
+- **Ethereum Sepolia**: [sepolia.etherscan.io](https://sepolia.etherscan.io/)
+
+---
+
+## License
+
+MIT License - See [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+Built with [Zama FHEVM](https://github.com/zama-ai/fhevm) - Privacy-preserving medical data management.
+
+**Note**: This platform is for development and testing. For production medical applications, ensure compliance with relevant healthcare regulations (HIPAA, GDPR, etc.).
+
+---
+
+**Repository**: https://github.com/sosedkakeran/Sanctuary  
+**Issues**: https://github.com/sosedkakeran/Sanctuary/issues  
+**Discussions**: https://github.com/sosedkakeran/Sanctuary/discussions
+
+---
+
+_Powered by Zama FHEVM | Medical Privacy by Design | Patient Data Sovereignty_
+```
